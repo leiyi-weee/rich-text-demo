@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  padding-bottom: 60px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.ck-editor-container {
+  width: 90%;
+}
+
+.bf-editor-container {
+  width: 90%;
+  border: 1px solid #ddd;
+
+  .bf-controlbar  {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
+}

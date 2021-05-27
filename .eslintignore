@@ -1,0 +1,6 @@
+dist
+*.less
+node_modules
+src/image
+*.svg
+*.png
